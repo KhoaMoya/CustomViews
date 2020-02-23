@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".selectable_indicator.SelectableIndicatorActivity">
+
+    <com.khoa.selectableindicatorview.SelectableIndicatorView
+        android:id="@+id/toggle_button_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tbn_draw_saparates="false"
+        app:tbn_padding_vertical="6dp"
+        app:tbn_padding_horizotal="8dp"
+        app:tbn_text_size="15sp"
+        app:stroke_color="@color/colorPrimary"
+        app:corners_radius="4dp"
+        app:stroke_width="1dp"
+        app:tbn_background_color="#fff"
+        app:animation_duration="200"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SelectableIndicatorView">
+        <attr name="animation_duration" format="integer"/>
+        <attr name="stroke_color" format="color"/>
+        <attr name="stroke_width" format="dimension"/>
+        <attr name="tbn_background_color" format="color"/>
+        <attr name="corners_radius" format="dimension"/>
+        <attr name="tbn_padding_horizotal" format="dimension"/>
+        <attr name="tbn_padding_vertical" format="dimension"/>
+        <attr name="tbn_text_size" format="dimension"/>
+        <attr name="tbn_draw_saparates" format="boolean"/>
+    </declare-styleable>
+</resources>
